@@ -1,5 +1,5 @@
 <div align="center">
-   <img width=100px height=100px src="PROJETO/Frontend/Imagens/horse.png">
+   <img width=150px height=150px src="PROJETO/Frontend/Imagens/horse.png">
    <h1>Horsouls | Dependências</h1>
 </div>
 
@@ -32,3 +32,7 @@
    ```bash
    npm start
 <br>
+
+<div align="center">
+   Feito com ❤ por @zuiass
+</div>
