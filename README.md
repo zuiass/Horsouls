@@ -28,6 +28,7 @@
 <br>
 
 5. Rode o projeto:
+
    ```bash
    npm start
 <br>
