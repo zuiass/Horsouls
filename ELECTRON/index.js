@@ -11,7 +11,7 @@ app.whenReady().then(() => {
         minHeight: Math.round(height * 0.7000),
         
         autoHideMenuBar: true,
-        icon: '../Frontend/Imagens/horse.png',
+        icon: '../PROJETO/Frontend/Imagens/horse.png',
 
         webPreferences: {
             nodeIntegration: true
@@ -19,7 +19,7 @@ app.whenReady().then(() => {
     });
 
     mainWindow.maximize();
-    mainWindow.loadFile('../Frontend/Janelas/Principal/index.html');
+    mainWindow.loadFile('../PROJETO/Frontend/Janelas/Principal/index.html');
 
     app.on('window-all-closed', () => {
         if (process.platform !== 'darwin') {
