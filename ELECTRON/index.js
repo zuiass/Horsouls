@@ -7,7 +7,7 @@ app.whenReady().then(() => {
     const { width, height } = screen.getPrimaryDisplay().workAreaSize;
 
     mainWindow = new BrowserWindow({
-        minWidth: Math.round(width * 0.3778),
+        minWidth: Math.round(width * 0.5000),
         minHeight: Math.round(height * 0.7000),
         
         autoHideMenuBar: true,
