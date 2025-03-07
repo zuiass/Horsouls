@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.botao {
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    width: 300px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgb(148, 66, 224);
+}
+
+.logo {
+    display: flex;
+    background-color: var(--bg-area);
+    padding: 25px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    opacity: 0.5;
+}
+
+.desc {
+    display: flex;
+    gap: 5px;
+    margin-top: auto;
+}

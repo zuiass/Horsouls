@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* G E R A L */
+
+html {
+    scroll-behavior: smooth;
+} * {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab";
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-corner {
+    visibility: hidden;
+}
+
+/* E L E M E N T O S */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: var(--bg-page);
+    color: var(--color);
+}
+
+input {
+    color: var(--color);
+    caret-color: var(--color);
+    background-color: var(--bg-input);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+:root {
+    --bg-dark: rgb(20, 20, 20);
+    --bg-light: white;
+
+    --color-dark: white;
+    --color-light: black;
+
+    --bg-area-light: rgb(225, 225, 225);
+    --bg-area-dark: rgb(30, 30, 30);
+
+    --bg-input-light: rgb(200, 200, 200);
+    --bg-input-dark: rgb(35, 35, 35);
+}
+
+body.dark-mode {
+    --bg-page: var(--bg-dark);
+    --bg-area: var(--bg-area-dark);
+    --color: var(--color-dark);
+    --bg-input: var(--bg-input-dark);
+}
+
+body.light-mode {
+    --bg-page: var(--bg-light);
+    --bg-area: var(--bg-area-light);
+    --color: var(--color-light);
+    --bg-input: var(--bg-input-light);
+}
+
+/* C L A S S E S */
+
+.button-toggle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-white);
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 50px;
+    height: 30px;
+    background: #999;
+    border-radius: 20px;
+    position: relative;
+    transition: background 0.3s;
+}
+
+.bolinha {
+    width: 20px;
+    height: 20px;
+    background: rgb(221, 221, 221);
+    border-radius: 50%;
+    top: 2px;
+    left: 2px; /* Posição inicial (desativado) */
+    transition: transform 0.3s;
+}
+
+.toggle.ativado {
+    background: blueviolet;/
+}
+
+.toggle.ativado .bolinha {
+    transform: translateX(20px);
+    background: white;
+}
+/* </toggle> */
