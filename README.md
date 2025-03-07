@@ -1,4 +1,4 @@
-<img src="PROJETO/Frontend/Imagens/horse.png">
+<img width=100px height=100px src="PROJETO/Frontend/Imagens/horse.png">
 
 ## Dependências
 
