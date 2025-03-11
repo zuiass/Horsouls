@@ -1,5 +1,5 @@
-CREATE DATABASE hoursouls;
-USE hoursouls;
+CREATE DATABASE horsouls;
+USE horsouls;
 
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
