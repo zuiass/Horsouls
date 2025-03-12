@@ -1,4 +1,4 @@
-import mysql from 'mysql2';
+const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
   host: 'localhost',
@@ -10,18 +10,9 @@ const connection = mysql.createConnection({
 // Conectar ao banco de dados
 connection.connect((err) => {
   if (err) {
-    console.error('Erro ao conectar ao banco de dados:', err);
+    console.error("Erro ao conectar ao banco de dados", err);
   } else {
-    console.log('Conectado ao MySQL');
-  }
-});
-
-// Consultar dados
-connection.query('SELECT * FROM usuarios', (err, results) => {
-  if (err) {
-    console.error('Erro ao consultar dados:', err);
-  } else {
-    console.log('Resultados:', results);
+    console.log('Conectado ao MySQL: ', database);
   }
 });
 

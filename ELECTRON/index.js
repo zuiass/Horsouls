@@ -1,6 +1,4 @@
 const { app, BrowserWindow } = require('electron');
-const mysql = require('mysql2');
-const { connectToDb, queryDb, closeDb } = require('../PROJETO/Backend/MySQL/database.js');
 
 let mainWindow;
 
@@ -29,5 +27,3 @@ app.whenReady().then(() => {
         }
     });
 });
-
-connectToDb();
