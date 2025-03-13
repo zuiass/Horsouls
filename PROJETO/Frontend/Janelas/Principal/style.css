@@ -38,6 +38,11 @@
     background-color: rgb(148, 66, 224);
 }
 
+.apresentar {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     display: flex;
     background-color: var(--bg-area);

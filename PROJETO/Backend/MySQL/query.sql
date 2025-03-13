@@ -9,3 +9,6 @@ CREATE TABLE usuarios (
     senha VARCHAR(255) NOT NULL,
     criado TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+INSERT INTO usuarios (nome, email, senha)
+values ("Kayke", "kayke@email.com", "12345687")
